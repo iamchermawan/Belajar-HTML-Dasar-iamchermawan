@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar HTML Dasar @iamchermawan</title><!--judul halaman-->
     <meta name="author" content="iamchermawan"> <!--meta untuk search engine / pencarian google-->
-    <meta name="keywords" content="HTML Dasar">
+    <meta name="keywords" content="Belajar HTML Dasar">
     <meta name="description" content="Belajar HTML Dasar iamchermawan">
     <link rel="icon" href="Aset/logo.png"><!--favicon = membuat icon website-->
 </head>
@@ -13,8 +13,8 @@
 
     <header><!--Semantic Tag = bagian header dokumen-->
         <h1>Belajar &lt; <span style="color: red;">HTML DASAR</span> &gt;</h1> <!--Header HTML / BAB Suatu tulisan - Tingkatan H1 -> H6-->
-        <nav><!--Semantic Tag = bagian navigasi link-->
             <h4>Bookmark</h4> <!--ini adalah bookmark, cara mengakses suatu element / bagian tertentu dengan menggunakan id tertentu-->
+        <nav><!--Semantic Tag = bagian navigasi link-->
             <ul>
                 <li><a href="#data-diri">Data Diri</a></li>
                 <li><a href="#hard-skill">Hard Skill</a></li>
@@ -29,32 +29,30 @@
                 <li><a href="#jadwal">Jadwal Aktivitas</a></li>
             </ul>
         </nav>
-
-        <figure><!--Semantic Tag = bagian konten ilustrasi, diagram, foto, dan lain-lain-->
-            <picture><!--menampilkan beberapa gambar sekaligus dengan menentukan sesuai ukuran layarnya -->
-                <source media="(max-width: 500px)" srcset="Aset/min.png">
-                <source media="(max-width: 1000px)" srcset="Aset/max.jpg">
-                <img style="width: 300px; height: 260px;" src="Aset/picture.jpg" alt="Gambar Saya">
-            </picture>
-        
-            <iframe width="500" height="260" src="https://www.youtube.com/embed/6NBNQXYR0uk?si=4ehNXTc8iMmQlcyh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <!--Inline Frame untuk menampilkan bagian halaman web lain-->
-        </figure>
     </header>
+
+    <figure><!--Semantic Tag = bagian konten ilustrasi, diagram, foto, dan lain-lain-->
+        <picture><!--menampilkan beberapa gambar sekaligus dengan menentukan sesuai ukuran layarnya -->
+            <source media="(max-width: 500px)" srcset="Aset/min.png">
+            <source media="(max-width: 1000px)" srcset="Aset/max.jpg">
+            <img style="width: 300px; height: 260px;" src="Aset/picture.jpg" alt="Gambar Saya">
+        </picture>
+        
+        <iframe width="500" height="260" src="https://www.youtube.com/embed/6NBNQXYR0uk?si=4ehNXTc8iMmQlcyh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!--Inline Frame untuk menampilkan bagian halaman web lain-->
+    </figure>
+    
     
     <main><!--Semantic Tag = bagian konten utama dokumen-->
         <article><!--Semantic Tag = bagian konten artikel-->
             <h2 id="data-diri">Data Diri Penulis</h2>
-                <pre><!--tag pre menulis teks apa adanya-->
-                Nama Asli   : Okka Hermawan Yulianto
-                Nama Sosmed : Charlotte Hermawan &#x1F60E;
-                Umur        : 25 Tahun
-                SMK         : SMK Negeri 3 Semarang - Teknik Instalasi Tenaga Listrik (TITL)
-                Universitas : Universitas Stikubank (UNISBANK) Semarang - S1 Teknik Informatika
-                IPK         : 3.87 (Cumlaude)
-                Alamat      : Karang Anyar Gunung No. 436 B, RT 001 / RW 003, Candisari, Kota Semarang
-                </pre> <!--&#x1F60E; ini emoji-->
-            
+                <p>Nama Asli   : Okka Hermawan Yulianto</p>
+                <p>Nama Sosmed : Charlotte Hermawan &#x1F60E;</p><!--&#x1F60E; ini emoji-->
+                <p>Umur        : 25 Tahun</p>
+                <p>SMK         : SMK Negeri 3 Semarang - Teknik Instalasi Tenaga Listrik (TITL)</p>
+                <p>Universitas : Universitas Stikubank (UNISBANK) Semarang - S1 Teknik Informatika</p>
+                <p>IPK         : 3.87 (Cumlaude)</p>
+                <p>Alamat      : Karang Anyar Gunung No. 436 B, RT 001 / RW 003, Candisari, Kota Semarang</p>
                 <br> <!-- Adalah Breakline / Membuat Baris Selanjutnya -->
                 <hr> <!-- Ini adalah Horizontal Rule / Membuat Garis Horizontal suatu halaman -->
         
@@ -63,8 +61,8 @@
                     <li>Microsoft Office (Word, Excel, Power Poin) Basic</li>
                     <li>Desain Canva, PixelLab</li>
                     <li>Edit Video KiniMaster </li>
-                    <li>Pemasangan Instalasi Listik</li>
-                    <li>Service Handphone (Ganti LCD, Batrai tanam dan lain <sup>2</sup> )</li>
+                    <li>Pemasangan Instalasi Listik Rumah</li>
+                    <li>Service Handphone (Ganti LCD, Batrai tanam dan lain <sup>2</sup>)</li>
                     <li>Digital Marketing</li>
                     <li>HTML,CSS, dan PHP Dasar</li>
                     <li>Java Dasar</li>
@@ -86,68 +84,68 @@
             
                 <h3>PT Pillar Utama Contrindo</h3>
                 <ul> <!-- Unordered List membuat list tulisan dengan simbol-->
-                    <li><pre>Lama Kerja         : Juli 2017 - Agustus 2017</pre></li>
-                    <li><pre>Posisi             : Helper dan Maintence</pre></li>
-                    <li><pre>Jabatan            : Staff Teknisi</pre></li>
-                    <li><pre>Lokasi             : Kota Semarang dan Solo-Sukoharjo</pre></li>
-                    <li><pre>Alamat Perusahaan  : Jl. Puri Anjasmoro J2 No 26, Tawangsari, Semarang Barat, Kota Semarang, Jawa Tengah 50144</pre></li>
-                    <li><pre>Deskripsi Pekerjaan: </pre></li>
+                    <li>Lama Kerja         : Juli 2017 - Agustus 2017</li>
+                    <li>Posisi             : Helper dan Maintence</li>
+                    <li>Jabatan            : Staff Teknisi</li>
+                    <li>Lokasi             : Kota Semarang dan Solo-Sukoharjo</li>
+                    <li>Alamat Perusahaan  : Jl. Puri Anjasmoro J2 No 26, Tawangsari, Semarang Barat, Kota Semarang, Jawa Tengah 50144</li>
+                    <li>Deskripsi Pekerjaan: </li>
                     <ol><!-- ordered List membuat list tulisan dengan huruf atau angka-->
-                        <li><pre>Melakukan Perawatan Lift dan eskalator satu bulan sekali di setiap Perusahaan yang bekerja sama dengan PT Pillar</pre></li>
-                        <li><pre>Membantu pembuatan Lift, mulai dari pemasangan pintu lift dan pemberat</pre></li>
+                        <li>Melakukan Perawatan Lift dan eskalator satu bulan sekali di setiap Perusahaan yang bekerja sama dengan PT Pillar</li>
+                        <li>Membantu pembuatan Lift, mulai dari pemasangan pintu lift dan pemberat</li>
                     </ol>
-                    <li><pre>Alasan Keluar      : Orang Tua tidak mengizinkan untuk tetap di PT Pillar karena 2x terjadi kecelakaan kerja pada karyawan</pre></li>
+                    <li>Alasan Keluar      : Orang Tua tidak mengizinkan untuk tetap di PT Pillar karena 2x terjadi kecelakaan kerja pada karyawan</li>
                 </ul>
                 <br>
             
                 <h3>CV Blesindo Abadi - <i>Tutup Permanen</i></h3>
                 <ul> <!-- Unordered List membuat list tulisan -->
-                    <li><pre>Lama Kerja         : Januari 2018 - Maret 2018</pre></li>
-                    <li><pre>Posisi             : Packing dan Stampel</pre></li>
-                    <li><pre>Jabatan            : Staff Produksi</pre></li>
-                    <li><pre>Lokasi             : Kota Semarang</pre></li>
-                    <li><pre>Alamat Perusahaan  : Kawasan Industri Candi Krapyak blok 16 no 9A, Ngaliyan, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50211</pre></li>
-                    <li><pre>Deskripsi Pekerjaan:</pre></li>
+                    <li>Lama Kerja         : Januari 2018 - Maret 2018</li>
+                    <li>Posisi             : Packing dan Stampel</li>
+                    <li>Jabatan            : Staff Produksi</li>
+                    <li>Lokasi             : Kota Semarang</li>
+                    <li>Alamat Perusahaan  : Kawasan Industri Candi Krapyak blok 16 no 9A, Ngaliyan, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50211</li>
+                    <li>Deskripsi Pekerjaan:</li>
                     <ol>
-                        <li><pre>Melakukan Stampel logo pada produk isolatif keran menggunakan mesin khusus</pre></li>
-                        <li><pre>Mempacking produk isolatif dalam plastik dan memasukkan dalam wadah bagor</pre></li>
-                        <li><pre>Menghitung jumlah produk dan melaporkan ke atasan</pre></li>
+                        <li>Melakukan Stampel logo pada produk isolatif keran menggunakan mesin khusus</li>
+                        <li>Mempacking produk isolatif dalam plastik dan memasukkan dalam wadah bagor</li>
+                        <li>Menghitung jumlah produk dan melaporkan ke atasan</li>
                     </ol>
-                    <li><pre>Alasan Keluar      : Diterima Kerja di PT AST Indonesia</pre></li>
+                    <li>Alasan Keluar      : Diterima Kerja di PT AST Indonesia</li>
                 </ul>
                 <br>
             
                 <h3>PT AST Indonesia</h3>
                 <ul> <!-- Unordered List membuat list tulisan -->
-                    <li><pre>Lama Kerja         : 05 April 2018 - 31 Maret 2019</pre></li>
-                    <li><pre>Posisi             : Quality Control</pre></li>
-                    <li><pre>Jabatan            : Operator</pre></li>
-                    <li><pre>Lokasi             : Kota Semarang</pre></li>
-                    <li><pre>Alamat Perusahaan  : Jalan Kawasan Industri Wijaya Kusuma Blok A-01, Randu Garut, Kec. Tugu, Kota Semarang, Jawa Tengah 50181</pre></li>
-                    <li><pre>Deskripsi Pekerjaan:</pre></li>
+                    <li>Lama Kerja         : 05 April 2018 - 31 Maret 2019</li>
+                    <li>Posisi             : Quality Control</li>
+                    <li>Jabatan            : Operator</li>
+                    <li>Lokasi             : Kota Semarang</li>
+                    <li>Alamat Perusahaan  : Jalan Kawasan Industri Wijaya Kusuma Blok A-01, Randu Garut, Kec. Tugu, Kota Semarang, Jawa Tengah 50181</li>
+                    <li>Deskripsi Pekerjaan:</li>
                     <ol type="1">
-                        <li><pre>Melakukan pengecekan barang mentah masuk (kayu, part logam, plastik dll) menggunkan sistem sampling</pre></li>
-                        <li><pre>Membuat laporan pengecekan dan pelabelan bahan layak dan NG</pre></li>
-                        <li><pre>Melakukan sortir 100% jika ada claim dari bagian produksi</pre></li>
+                        <li>Melakukan pengecekan barang mentah masuk (kayu, part logam, plastik dll) menggunakan sistem sampling</li>
+                        <li>Membuat laporan pengecekan dan pelabelan bahan layak dan NG</li>
+                        <li>Melakukan sortir 100% jika ada claim dari bagian produksi</li>
                     </ol>
-                    <li><pre>Alasan Keluar      : Masa Kontrak Habis di PT AST Indonesia</pre></li>
+                    <li>Alasan Keluar      : Masa Kontrak Habis di PT AST Indonesia</li>
                 </ul>
                 <br>
             
                 <h3>Pusat Laptop Nusantara Semarang</h3>
                 <ul> <!-- Unordered List membuat list tulisan -->
-                    <li><pre>Lama Kerja         : 03 juni 2024 - 18 Juli 2024</pre></li>
-                    <li><pre>Posisi             : Sales dan Marketing</pre></li>
-                    <li><pre>Jabatan            : Staff</pre></li>
-                    <li><pre>Lokasi             : Kota Semarang</pre></li>
-                    <li><pre>Alamat Perusahaan  : Jl. Gajah Raya No.6, Pandean Lamper, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166</pre></li>
-                    <li><pre>Deskripsi Pekerjaan:</pre></li>
+                    <li>Lama Kerja         : 03 juni 2024 - 18 Juli 2024</li>
+                    <li>Posisi             : Sales dan Marketing</li>
+                    <li>Jabatan            : Staff</li>
+                    <li>Lokasi             : Kota Semarang</li>
+                    <li>Alamat Perusahaan  : Jl. Gajah Raya No.6, Pandean Lamper, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166</li>
+                    <li>Deskripsi Pekerjaan:</li>
                     <ol>
-                        <li><pre>Melakukan promosi produk lewat marketplace Facebook dan OLX</pre></li>
-                        <li><pre>Melayani custumer yang datang ke toko dan melakukan QC Laptop</pre></li>
-                        <li><pre>Mengantarkan laptop ke rumah customer jika diminta</pre></li>
+                        <li>Melakukan promosi produk lewat marketplace Facebook dan OLX</li>
+                        <li>Melayani custumer yang datang ke toko dan melakukan QC Laptop</li>
+                        <li>Mengantarkan laptop ke rumah customer jika diminta</li>
                     </ol>
-                    <li><pre>Alasan Keluar      : Penjualan hanya fokus di Facebook tidak ada perkembangan di marketplace (Shopee, Tokopedia), gaji pokok yang sangat sedikit</pre></li>
+                    <li>Alasan Keluar      : Penjualan hanya fokus di Facebook tidak ada perkembangan di marketplace (Shopee, Tokopedia), gaji pokok yang sangat sedikit</li>
                 </ul><br><hr>
 
             <h2 id="pelatihan-magang">Pelatihan / Magang</h2>
@@ -195,7 +193,7 @@
                     <li><a href="https://github.com/iamchermawan" target="_blank">GitHub</a></li>
                     <li><a href="https://web.facebook.com/profile.php?id=100085318106145">Facebook</a></li>
                     <li><a href="https://twitter.com/iamchermawan" target="_self">Twitter / X</a></li>
-                    <li><a href="/tag.html" target="_parent">Halaman ini</a></li><!--ini adalah relative URL yaitu mengakses halaman ini atau folder halaman website itu sendiri-->
+                    <li><a href="/belajar-html-dasar-iamchermawan.html" target="_parent">Halaman ini</a></li><!--ini adalah relative URL yaitu mengakses halaman ini atau folder halaman website itu sendiri-->
                 </ul><br><hr>  
                 
             <h2 id="media">Media</h2> 
@@ -276,22 +274,9 @@
     <br><hr>
 
     <footer><!--Semantic Tag = bagian footer / penutup dokumen-->
-        <p>Copyright @iamchermawan | Belajar PHP Dasar</p>
+        <pre><!--tag pre menulis teks apa adanya-->
+            Copyright @iamchermawan | Belajar HTML Dasar
+        </pre> 
     </footer>
-    
-
-    
-    
-
-
-    
-
-    
-    
-
-    
-    
-    
-    
 </body>
 </html>
